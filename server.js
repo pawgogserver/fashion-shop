@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.listen((process.env.PORT || 4000), function(){
-  console.log('listening 4000');
+  console.log('listening port 4000');
 });
 
 app.use((err, req, res, next) => {
